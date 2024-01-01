@@ -148,6 +148,8 @@ Give the below Dockerfile -> Click on Commit
 
 5. Now go to portal.azure -> Open Container Registry -> Create a new Resource group -> Now give a unique name to Registry name -> Pricing plan - Basic -> Click on Review + create
 
+![image](https://github.com/Pavan-1997/Azure_ACR/assets/32020205/886d0e59-090d-4d03-866f-2763b2d6773a)
+
 
 6. Now click on Access keys on the left -> Check on Admin user 
 
@@ -159,8 +161,12 @@ Give the below Dockerfile -> Click on Commit
 
 8. Now go to portal.azure -> Open Container instances -> Select the created instance -> Click on the Containers on the left -> You can see the container created 
 
+![image](https://github.com/Pavan-1997/Azure_ACR/assets/32020205/2dee7fab-15e5-4802-8866-f0e329fae687)
+
 
 9. Now go to portal.azure -> Open Container instances -> Click on Overview -> Open the FQDN in a browser which should open the application 
+
+![image](https://github.com/Pavan-1997/Azure_ACR/assets/32020205/b9fb2360-7050-4d87-9b3a-bd72f89bc9fd)
 
 ![APP](https://github.com/Pavan-1997/Azure_ACR/assets/32020205/cb6a64bc-882a-49c8-8062-daf717ab5b20)
 
