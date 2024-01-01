@@ -79,9 +79,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'XXXX'
+  dockerRegistryServiceConnection: 'e7cd520d-3339-42b0-ab2f-f7d11582b7da'
   imageRepository: 'todoapp'
-  containerRegistry: 'NAME.azurecr.io'
+  containerRegistry: 'pavanraj97.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
@@ -99,10 +99,11 @@ stages:
     steps:
     - task: AzureCLI@2
       inputs:
-        azureSubscription: 'XXXX'
+        azureSubscription: 'Azure subscription(c20379ae-4a34-42d6-bef7-55273c6630f6)'
         scriptType: 'bash'
         scriptLocation: 'inlineScript'
         inlineScript: 'az acr login --name=$(containerRegistry)'
+    
     - task: Docker@2
       displayName: Build and push an image to container registry
       inputs:
@@ -112,20 +113,21 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
+
     - task: AzureCLI@2
       inputs:
-        azureSubscription: 'XXXX'
+        azureSubscription: 'Azure subscription(c20379ae-4a34-42d6-bef7-55273c6630f6)'
         scriptType: 'bash'
         scriptLocation: 'inlineScript'
         inlineScript: |
           az container create \
-          --name day10app \
-          --resource-group day10-demo \
-          --image $(containerRegistry)/$(imageRepository):$(tag) \
-          --registry-login-server $(containerRegistry) \
-          --registry-username day10demo  \
-          --registry-password XXXX \
-          --dns-name-label aci-demo-piyush101
+                    --name day10app \
+                    --resource-group day10-demo \
+                    --image $(containerRegistry)/$(imageRepository):$(tag) \
+                    --registry-login-server $(containerRegistry) \
+                    --registry-username pavanraj97  \
+                    --registry-password T11tVbN4CzH2V1GqOEwiy+TIq9aKq6whz89aZ10ZVj+ACRBbj4Vj \
+                    --dns-name-label aci-demo-pavan97
 ```
 ---
 ## Implementation:
