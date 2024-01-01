@@ -4,6 +4,14 @@
 
 ![image](https://github.com/Pavan-1997/Azure_ACR/assets/32020205/6cf66a8f-df15-45c1-b69a-ffa235b08b7a)
 
+## Challenges with the non-containerized applications:
+
+![image](https://github.com/Pavan-1997/Azure_ACR/assets/32020205/c80af557-72b2-430b-9d9f-5b1794ad3b76)
+
+## Docker Architecture: 
+
+![image](https://github.com/Pavan-1997/Azure_ACR/assets/32020205/1ff643bb-d726-4e60-b4f0-c5dd0846018f)
+
 
 1. Go to the dev.azure portal 
 
