@@ -154,6 +154,8 @@ Give the below Dockerfile -> Click on Commit
 
 7. Now go to dev.azure portal -> Click on Pipelines -> Pipelines -> Click on Create Pipeline -> Azure Repos Git -> Select the repo -> Click on Docker (Build and push an image to Azure Container Registry) -> Select the Azure subscription -> Click on Continue -> Select the already created Container registry -> Give a Image Name -> Click on Validate and configure -> Modify the azure-pipeline.yml file -> Click on Save and run -> Click on Permit to execute the Build job
 
+![image](https://github.com/Pavan-1997/Azure_ACR/assets/32020205/1935bb1c-7618-4d8b-962a-b31dc71366b3)
+
 
 8. Now go to portal.azure -> Open Container instances -> Select the created instance -> Click on the Containers on the left -> You can see the container created 
 
