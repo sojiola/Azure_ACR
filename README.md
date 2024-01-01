@@ -161,4 +161,7 @@ Give the below Dockerfile -> Click on Commit
 
 
 9. Now go to portal.azure -> Open Container instances -> Click on Overview -> Open the FQDN in a browser which should open the application 
- 
+
+![APP](https://github.com/Pavan-1997/Azure_ACR/assets/32020205/cb6a64bc-882a-49c8-8062-daf717ab5b20)
+
+![APP1](https://github.com/Pavan-1997/Azure_ACR/assets/32020205/81a4a8bd-3eb1-4f1a-a87d-c218663c43ef)
