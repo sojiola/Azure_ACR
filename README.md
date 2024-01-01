@@ -6,7 +6,7 @@
 2. Click on Create new project -> Give a Project name -> Click on Create
 
 
-3. Now go to Repos -> Files -> Click on Import -> Clone URL - https://github.com/piyushsachdeva/todoapp-docker.git -> Click on Import
+3. Now go to Repos -> Files -> Click on Import -> Clone URL -  -> Click on Import
 
 
 4. For creating a docker file in the cloned repo - Click on the 3 dots -> New -> File -> Give a name -> Click on Create
