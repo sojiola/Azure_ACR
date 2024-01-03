@@ -1,4 +1,4 @@
-# Azure_ACR 
+# Azure_ACR  
     
 ## Virtual Machine vs Containers:
 
