@@ -1,5 +1,5 @@
 # Azure_ACR       
-          
+           
 ## Virtual Machine vs Containers: 
 
 ![image](https://github.com/Pavan-1997/Azure_ACR/assets/32020205/6cf66a8f-df15-45c1-b69a-ffa235b08b7a)
